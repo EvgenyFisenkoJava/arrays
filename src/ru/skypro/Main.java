@@ -78,11 +78,11 @@ public class Main {
             if (i %2 == 0) {
                 numbers[i] += +1;
 
-                System.out.print(numbers[i] + " ");
+                System.out.print(numbers[i]);
 
         }
             else {
-                System.out.print(+ numbers[i]+ " ");
+                System.out.print(", " + numbers[i]+ ", ");
             }
             }
 
